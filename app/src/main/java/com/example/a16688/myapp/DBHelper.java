@@ -7,6 +7,9 @@ import android.widget.Toast;
 
 public class DBHelper extends SQLiteOpenHelper {
 
+
+
+    String A=null;
     public static final String CREATE_BOOK="create table Book("
             +"id integer primary key autoincrement,"
             +"tex text)";
